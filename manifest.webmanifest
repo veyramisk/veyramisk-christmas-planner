@@ -1,21 +1,32 @@
 {
-  "name": "VeyraMisk Christmas Planner",
-  "short_name": "Christmas",
+  "id": "./",
+  "name": "VeyraMisk ADHD Christmas Planner",
+  "short_name": "VeyraMisk",
+  "description": "Calmer holidays. A kinder you. Private, local Christmas planning by VeyraMisk.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "background_color": "#f6f3ee",
-  "theme_color": "#4d6343",
+  "theme_color": "#254535",
+  "lang": "en",
   "icons": [
     {
       "src": "./icon-192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "./icon-512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ]
 }
